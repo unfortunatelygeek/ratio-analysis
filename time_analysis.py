@@ -13,7 +13,6 @@ df = dataframes['Sheet1']
 # Display the first few rows of the dataframe to understand its structure
 print(df.head())
 
-# Let's extract the columns for the years 2013 to 2023 and rename them accordingly
 columns_of_interest = ['Company Name', 'Net working capital', 'Net working capital.1', 'Net working capital.2', 'Net working capital.3', 'Net working capital.4', 'Net working capital.5', 'Net working capital.6', 'Net working capital.7', 'Net working capital.8', 'Net working capital.9', 'Net working capital.10']
 df_negative_wc = df[columns_of_interest]
 

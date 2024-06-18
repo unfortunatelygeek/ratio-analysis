@@ -171,3 +171,4 @@ cython_debug/
 Scripts/activate
 Scripts/vba_extract.py
 share/man/man1/ttx.1
+deactivate/Scripts/activate
